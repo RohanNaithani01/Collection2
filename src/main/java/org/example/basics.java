@@ -48,5 +48,8 @@ public class basics {
         PriorityQueue<Integer> pq=new PriorityQueue<>();
         pq.offer(1);
         pq.offer(0);
+        System.out.println(pq.peek());
+        System.out.println(pq.poll());
+        System.out.println(pq);
     }
 }
