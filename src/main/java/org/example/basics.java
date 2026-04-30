@@ -45,7 +45,7 @@ public class basics {
         System.out.println(ad.pop());
         System.out.println(ad);
 
-        PriorityQueue<Integer> pq=new PriorityQueue<>();
+        PriorityQueue<Integer> pq=new PriorityQueue<>((a,b)->b-a);
         pq.offer(1);
         pq.offer(0);
         System.out.println(pq.peek());
